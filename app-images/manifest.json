@@ -3,7 +3,7 @@
   "short_name": "Rosquinha",
   "theme_color": "rgba(243,33,178,0.61)",
   "background_color": "rgba(243,33,178,0.61)",
-  "display": "browser",
+  "display": "fullscreen",
   "Scope": "/",
   "start_url": "/pwa",
   "icons": [
