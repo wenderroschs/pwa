@@ -8,8 +8,31 @@
     <title>Rosquinha</title>
 </head>
 <body>
-    <h1>Sou uma rosquinha</h1>
+    <h1>Sou uma rosquinhaaa</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, est. Eaque optio totam accusantium veniam porro molestias quos nobis, ut, doloremque rerum tenetur at repellat. Tempore mollitia voluptatem repellat ipsam!</p>
+
     <img src="./rosquinha.jpeg" alt="rosquinha">
+    <button>Click me</button>
+
+    <style>
+    body{
+      background-color: pink;  
+    }
+    </style>
+    <script>
+        const button = document.querySelector('button');
+        const body  = document.querySelector('body');
+
+        button.addEventListener('click', () => {
+            const color = body.style.backgroundColor;
+            if (color === 'paleturquoise') {
+                body.style.backgroundColor = 'pink'
+            } else {
+                body.style.backgroundColor = 'paleturquoise'
+            }
+        });
+    </script>
+
+    <script src="sw.js"></script>
 </body>
 </html>
